@@ -1,0 +1,2 @@
+C:/Users/lilyt/OneDrive/Documents/GitHub/flutter-firebase-tutorial/starter_code/android/app/.cxx/Debug/6b4n4l5b/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/lilyt/OneDrive/Documents/GitHub/flutter-firebase-tutorial/starter_code/android/app/.cxx/Debug/6b4n4l5b/armeabi-v7a/CMakeFiles/rebuild_cache.dir
