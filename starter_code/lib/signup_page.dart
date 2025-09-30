@@ -30,11 +30,8 @@ class _SignUpPageState extends State<SignUpPage> {
           .createUserWithEmailAndPassword(
               email: emailController.text.trim(),
               password: passwordController.text.trim());
-              print(UserCredential);
-    }
-    
-    
-      on FirebaseAuthException catch (e) {
+      print(UserCredential);
+    } on FirebaseAuthException catch (e) {
       print(e.message);
     }
   }
@@ -74,7 +71,9 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
               const SizedBox(height: 20),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () async {
+                  await CreateUserWithEmailAndPassword();
+                },
                 child: const Text(
                   'SIGN UP',
                   style: TextStyle(
